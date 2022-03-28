@@ -67,7 +67,6 @@ jobs:
         cd openwrt
         echo "src-git ssrp https://github.com/fw876/helloworld.git" >> ./feeds.conf.default
         echo "src-git opentopd  https://github.com/sirpdboy/sirpdboy-package" >> ./feeds.conf.default
-        echo "src-git atmaterialesir  https://github.com/esirplayground/luci-theme-atmaterial-ColorIcon" >> ./feeds.conf.default
         echo "src-git store  https://github.com/linkease/istore/tree/main/luci/luci-app-store" >> ./feeds.conf.default
         
         
